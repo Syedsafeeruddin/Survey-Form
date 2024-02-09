@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title" style="margin-bottom: -10px;">Survey Form For Students</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+            <div>
+                <label id="name-label">Name</label> 
+                <input placeholder="Enter Your Name Here" type="name" id="name" required>
+            </div> <br>
+            <div>
+                <label id="email-label">Email</label> 
+                <input placeholder="Enter Your Email Here" type="email" id="email" required> 
+            </div> <br>
+            <div>
+                <label id="number-label">Age</label>
+                <input placeholder="Enter Your Age Here" type="number" id="number" min="0" max="100">
+            </div> <br>
+    <div> 
+        <label>Which option best describes your current role?</label>
+    </div>
+    <div> 
+        <select name="dropdown" id="dropdown">
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Part Time Learner</option>
+            <option>Part Time Job</option>
+            <option>Full Time Job </option>
+            <option>Prefer Not To Say</option>
+            <option>Others</option>
+        </select>
+    </div>
+    <div> <br>
+        <label>Would you recommend freeCodeCamp to a friend?</label>
+    </div>
+    <div class="radio"> 
+        <div><input type="radio" name="player" value="Definietly">Definietly</div>
+        <div><input type="radio" name="player" value="May Be">May Be </div>
+        <div><input type="radio" name="player" value="Sure">Sure </div>
+    </div>
+    <div> <br>
+        <div>
+            <label>What is your favorite feature of freeCodeCamp?</label>
+        </div> 
+        <select name="dropdown" id="dropdown">
+            <option>Select Your Options</option>
+            <option>Challenges</option>
+            <option>Projects</option>
+            <option>Community</option>
+            <option>Open Source</option>
+        </select>
+
+    </div> <br>
+    <div>
+        <label>What would you like to see improved? (Check all that apply)</label>
+    </div>
+    <div class="options">
+        <div><label><input type="checkbox" name="player" value="Ronaldo">Front-end Projects </label></div></div>
+        <div><label><input type="checkbox" name="player" value="Ronaldo">Back-end Projects </label> </div>
+        <div><label><input type="checkbox" name="player" value="Ronaldo">Data Visualtization </label></div>
+        <div><label><input type="checkbox" name="player" value="Ronaldo">Challenges </label> </div>
+        <div><label><input type="checkbox" name="player" value="Ronaldo">Open Source Community </label></div>
+        <div><label><input type="checkbox" name="player" value="Ronaldo">Gitter Help rooms </label></div>
+        <div><label><input type="checkbox" name="player" value="Ronaldo">Videos </label></div>
+        <div><label><input type="checkbox" name="player" value="Ronaldo">City Meetups </label></div>
+        <div><label><input type="checkbox" name="player" value="Ronaldo">Wiki </label></div>
+        <div><label><input type="checkbox" name="player" value="Ronaldo">Forum </label></div>
+        <div><label><input type="checkbox" name="player" value="Ronaldo">Additional Courses </label></div>
+        <div><label></select></div>
+    </div> <br>
+    <label class="textarea">Any comments or suggestions?</label> <br>
+    <textarea placeholder="Enter Your Comments Here"></textarea> <br> <br>
+    <div>
+        <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+      </div>
+    </form>
+</body>
+
+</html>
+<div class="canvas"></div>
