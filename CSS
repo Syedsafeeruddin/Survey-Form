@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-family:  Arial, sans-serif;
+    background-image: url(portrait-pretty-female-student-with-books-backpack-university-hallway_255667-572.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+form{
+    width: 50%;
+    text-align: left;
+    padding: 25px;
+    margin: 0 400px 0 400px;
+    border-radius: 5px;
+    background-color: #002C70;
+    opacity: 80%;
+    margin-left: 290px;
+    opacity: 90%;
+   
+}
+#name,#email,#number{
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid;
+    height: 40px;
+    
+}
+select{
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    margin-top: 5px;
+}
+#dropdown > option{
+    font-size: 18px;
+    box-sizing: border-box;
+}
+textarea::placeholder{
+    font-size: 25px;
+    opacity: 40%;
+}
+textarea{
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    height: 100px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+::placeholder{
+    font-family: Arial, sans-serif; 
+    font-size: 15px;
+}
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: green;
+    color: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+
+}
+.submit-button:hover{
+    background-color: rgb(43, 154, 43);
+}
+#survey-form input{
+    border: none;
+    margin-top: 5px;
+}
+.radio{
+    margin-top: 5px;
+}
